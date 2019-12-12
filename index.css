@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+    width: 100vw;
+}
+
 nav {
     font-family: "Tangerine", cursive; 
     font-size: 35px;
@@ -23,7 +28,6 @@ nav {
 .main {
     margin-top: 110px;
     text-align: center;
-    width: 100vw;
 }
 
 #menu-button svg path{
@@ -76,7 +80,7 @@ section:nth-child(odd) {
 }
 
 .slideshow {
-    height:calc(100vh - 115px);
+    height: 360px;
     width: 100%;
     position: absolute;
     overflow: hidden;
@@ -203,7 +207,31 @@ section:nth-child(odd) {
 }
 
 /* Mobile landscape cases */
-@media screen and (max-heigh: 650px) {
+@media screen and (max-height: 450px) {
+    nav {
+	height: 100px;
+	padding: 20px;
+    }
+
+    nav br {
+	display: none;
+    }
+
+    .main {
+	margin-top: 100px;
+    }
+
+    .slideshow {
+	height: calc(100vh - 100px);
+    }
+    .slideshow .slide {
+	height: calc(100vh - 100px);
+    }
+
+    img {
+	height:calc(100vh - 100px);
+	margin-top: 0px;
+    }
 }
 
 .slideshow .slide.cycle-slide-active div span{
