@@ -67,6 +67,9 @@ nav {
 img {
     margin-top: 180px;
     object-fit: cover;
+    min-width: 185px;
+    min-height: 143px;
+    max-width: 529px;
     max-height: 350px;
 }
 
