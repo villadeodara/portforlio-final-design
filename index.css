@@ -184,7 +184,7 @@ section:nth-child(odd) {
 	height: 135px;
     }
 
-    main {
+    .main {
 	margin-top: 135px;
     }
 
@@ -231,6 +231,17 @@ section:nth-child(odd) {
     img {
 	height:calc(100vh - 100px);
 	margin-top: 0px;
+    }
+}
+
+/* Mobile landscape orientation and short screen, separate the img and 
+   text more in horizontal direction.*/
+@media screen and (max-height: 450px) and (max-width: 800px) {
+    img {
+	margin-right: 25%
+    }
+    .slideshow .slide div {
+	margin-left: 25%;
     }
 }
 
