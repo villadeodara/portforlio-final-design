@@ -67,6 +67,7 @@ nav {
 img {
     margin-top: 180px;
     object-fit: cover;
+    max-height: 350px;
 }
 
 section {
