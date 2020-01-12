@@ -7,6 +7,26 @@ body {
     width: 100vw;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    font-family: 'Literata', serif;
+    color:#bb2e12;
+    font-weight: 400;
+
+}
+
+h2{
+    font-size: 1.75rem;
+    margin: .5rem 0 0 0;
+    display: block;
+    text-align: center;
+}
+
 nav {
     font-family: "Tangerine", cursive; 
     font-size: 35px;
@@ -238,7 +258,6 @@ section:nth-child(odd) {
     
 }
 
-
 /* ipad and desktop cases */
 @media screen and (min-width: 767px) {
     nav {
@@ -259,7 +278,7 @@ section:nth-child(odd) {
 	margin-right: 20%
     }
 
-    .slideshow {
+    .slideshow .contact .bio .portfolio{
 	height:calc(100vh - 140px);
     }
 
@@ -283,10 +302,7 @@ section:nth-child(odd) {
 	margin-top: 100px;
     }
 
-    .slideshow {
-	height: calc(100vh - 100px);
-    }
-    .slideshow .slide {
+    .slideshow .slide .contact .bio .portfolio{
 	height: calc(100vh - 100px);
     }
 
