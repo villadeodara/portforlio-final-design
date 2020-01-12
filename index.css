@@ -222,6 +222,23 @@ section:nth-child(odd) {
     }
 }
 
+.contact {
+    height: 360px;
+    width: 100%;
+    position: absolute;
+    font-family: 'Literata';
+}
+
+.bio {
+    height: 360px;
+    width: 100%;
+    position: absolute;
+    font-family: 'Literata';
+    padding: 10px 0;
+    
+}
+
+
 /* ipad and desktop cases */
 @media screen and (min-width: 767px) {
     nav {
