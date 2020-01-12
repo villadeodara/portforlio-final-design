@@ -25,6 +25,47 @@ nav {
     z-index: 10;
 }
 
+.mobile-nav {
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    width: 100%;
+    background-color: #bb2e12;
+    margin: 0;
+    z-index: 1000;
+    height: calc(100vh - 110px);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-nav ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding: 20px 0px;
+    margin: 0;
+}
+
+.mobile-nav li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.mobile-nav li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .8em;
+}
+
 .main {
     margin-top: 110px;
     text-align: center;
@@ -61,7 +102,7 @@ nav {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
-    margin-top: -1px;
+    margin-top: 13px;
 }
 
 img {
