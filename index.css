@@ -285,6 +285,14 @@ section:nth-child(odd) {
     padding: 10px 0px;
 }
 
+.bio h2 {
+    padding: 10px 0px;
+}
+
+.portfolio h2 {
+    padding: 10px 0px;
+}
+
 .bio {
     height: 360px;
     width: 100%;
