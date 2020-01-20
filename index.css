@@ -46,7 +46,7 @@ h5{
     text-align: center;
 }
 
-nav {
+.header-container {
     font-family: "Tangerine", cursive; 
     font-size: 35px;
     padding: 25px 0;
@@ -56,7 +56,7 @@ nav {
     color: #f7f5eb;
 }
 
-nav {
+.header-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -91,13 +91,13 @@ nav {
     margin: 0;
 }
 
-.mobile-nav li {
+nav li {
     display: block;
     text-align: center;
     padding: 10px;
 }
 
-.mobile-nav li a {
+nav li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -309,7 +309,7 @@ section:nth-child(odd) {
 
 /* ipad and desktop cases */
 @media screen and (min-width: 767px) {
-    nav {
+    .header-container {
 	padding: 45px 0;
 	height: 135px;
     }
@@ -338,12 +338,12 @@ section:nth-child(odd) {
 
 /* Mobile landscape cases */
 @media screen and (max-height: 450px) {
-    nav {
+    .header-container {
 	height: 100px;
 	padding: 20px;
     }
 
-    nav br {
+    .header-container br {
 	display: none;
     }
 
