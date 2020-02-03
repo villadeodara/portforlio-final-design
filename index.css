@@ -375,13 +375,13 @@ section:nth-child(odd) {
 	display: none;
     }
 
-    img {
+    .logo {
 	height:calc((100vh - 300px)*0.8);
 	margin-right: 20%
     }
 
     .slideshow .contact .bio .portfolio{
-	height:calc(100vh - 140px);
+	height:calc(100vh - 135px);
     }
 
     .slideshow .slide div {
@@ -408,7 +408,7 @@ section:nth-child(odd) {
 	height: calc(100vh - 100px);
     }
 
-    img {
+    .logo {
 	height:calc(100vh - 100px);
 	margin-top: 0px;
     }
