@@ -404,6 +404,10 @@ section:nth-child(odd) {
 	margin-top: 100px;
     }
 
+    .mobile-nav {
+	top: 100px;
+    }
+    
     .slideshow .slide .contact .bio .portfolio{
 	height: calc(100vh - 100px);
     }

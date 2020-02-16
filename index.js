@@ -1,4 +1,5 @@
 function handleSlides() {
+    initNav();
     $('#menu-button').click(function(e){
 	e.stopPropagation();
 	if($('body').hasClass('opened-menu')) closeMobileNav();
@@ -38,6 +39,10 @@ function closeMobileNav(delayDur){
     $('.mobile-nav').delay(delayDur?delayDur:0).slideUp(200);
     $('#menu-button').removeClass('active');
     $('body').removeClass('opened-menu');
+}
+
+function initNav() {
+    if ($(window).width()<767 && $('body').hasClass('opened-menu')) closeMobileNav();
 }
 
 $(handleSlides);
